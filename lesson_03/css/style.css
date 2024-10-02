@@ -1,0 +1,46 @@
+@import url("reset.css");
+
+.navigation {
+    color: #227a3f;
+}
+
+h1{
+    color:#6ba1d3;
+}
+
+.article h2 {
+    color:#31af5b;
+}
+
+.main-info {
+    color:#bb236a;
+}
+
+.detailed-info {
+    color:#6b1f83;
+}
+.list i{
+    color:#5d9e1f;
+}
+
+.list li {
+    color:#b47d17;
+}
+
+.source {
+    color:#acacac;
+}
+
+a[href*="msumk"] ~ a{
+    color:#6b5f28;
+}
+
+.detailed-info span{
+    color:#ff0062;
+}
+
+/* Приклад не дуже, бо у мене немає другого рівня вкладеності .detailed-info, тому результат селектора > буде непомітний */
+#volyn-holand + div > .detailed-info *{
+    color:#88ff00;
+}
+/* Не використовував !important, але про його існування не забув */
