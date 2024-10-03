@@ -1,0 +1,139 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body{
+    font-family: "Fredoka", "Arial", sans-serif;
+    font-size:24px;
+    line-height: 1.2;
+}
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size:48px;
+}
+h2{
+    font-size:36px;
+    font-weight: 500;
+    
+}
+header .menu{
+    text-align: center;
+    word-spacing: 20px;
+}
+header .menu a{
+    word-spacing:normal;
+}
+/* h1, h2, h3, h4, h5, h6, a{
+    font-family: "Molefngo", cursive;
+    text-transform: uppercase;
+} */
+
+h1,
+.article h2,
+.article h3,
+.article h4,
+.article h5,
+.article h6,
+.article a {
+    font-family: "Molengo", sans-serif;
+    text-transform: uppercase;
+    font-style:oblique;
+}
+.strikethrough{
+    text-decoration: line-through;
+}
+.highlight {
+    color: rgba(101, 62, 190, 0.856);
+    text-decoration: underline;
+    text-shadow: 1px -1px 2px #8888889c;
+    font-style: italic;
+    font-weight: 600;
+}
+
+
+
+span.source, div.item span.source a{
+    color:#0000003d;
+}
+
+.article .item a{ 
+    color: #cc7263;
+}
+#sudno-band{
+    /* white-space: nowrap; */
+    word-spacing:10px;
+    letter-spacing: 1px;
+}
+
+#linkin-park p{
+    text-align: center;
+    text-transform:lowercase;
+    letter-spacing: 2px;
+}
+
+#nazva-band p{
+    text-align: right;
+    text-transform: capitalize;
+}
+
+#test-justify p{
+    text-align:justify;
+    line-height:1.5;
+}
+
+
+.homework-item-1{
+    font-family: "Work Sans";
+}
+.homework-item-1 h2{
+    color:#132238;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.homework-item-1 p {
+    color:#556070;
+    font-size: 18px;
+    line-height: 24px;
+}
+.homework-item-2 {
+    font-family: "Roboto";
+}
+.homework-item-2 h2 {
+    color: #091133;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 66px;
+}
+.homework-item-2 p {
+    color: #505F98;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.homework-item-3 {
+    font-family: "Work Sans";
+}
+.homework-item-3 h2 {
+    color: #1E1B39;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 95px;
+}
+
+.homework-item-3 p {
+    color: #474464;
+    font-size: 24px;
+    line-height: 42px;
+}
+
+footer a{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset:4px;
+    color: #2d2370;
+}
+/* footer ul+li{
+    font-family: "Fredoka", "Arial", sans-serif;
+    font-style: oblique;
+} */

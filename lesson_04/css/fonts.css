@@ -1,0 +1,35 @@
+/*  Using VS extention Google Font  */
+
+@import url(https://fonts.googleapis.com/css?family=Fredoka:regular,600);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:regular,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500);
+@import url(https://fonts.googleapis.com/css?family=DM+Sans:regular,700);
+/* 
+Using local files for fonts 
+*/
+
+/* 
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Питання до Ментора: "Якщо з сайту скачується універсальна версія шрифта, краще не додавати css властивості font-style та font-weight чи підключити один файл декілька разів і вже в різних підключеннях прописати ті властивості?"
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+@font-face {
+    font-family: 'Fredoka';
+    src: url("../fonts/Fredoka-VariableFont_wdth\,wght.woff2") format('woff2');
+    font-display: swap;
+} */
+
+@font-face {
+    font-family: 'Molengo';
+    src: url("../fonts/Molengo-Regular.woff2") format('woff2');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
